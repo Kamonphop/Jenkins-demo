@@ -12,7 +12,7 @@ public class ClassB {
 	
 	public boolean calculate_true_or_false(String name){
 		String fruit="orange";
-		ClassA A = new ClassA();
+		ClassA A = new ClasA();
 		if(fruit.equals(name)){
 			return A.return_true();
 		}
