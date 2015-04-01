@@ -9,4 +9,15 @@ public class ClassB {
 		}
 		return result;
 	}
+	
+	public boolean calculate_true_or_false(String name){
+		String fruit="orange";
+		ClassA A = new ClassA();
+		if(fruit.equals(name)){
+			return A.return_true();
+		}
+		else{
+			return !A.return_true();
+		}
+	}
 }
