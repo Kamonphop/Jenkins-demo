@@ -5,7 +5,7 @@ public class ClassB {
 		int result=0;
 		ClassA A = new ClassA();
 		for( int i = 0; i<100; i++){
-			result+= A.secret_number();
+			result+= A.secret_nu();
 		}
 		return result;
 	}
