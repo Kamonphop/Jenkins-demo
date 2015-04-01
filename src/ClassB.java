@@ -3,7 +3,7 @@ public class ClassB {
 	}
 	public int add_number_to_hundred(){
 		int result=0;
-		ClassA A = new ClaA();
+		ClassA A = new CA();
 		for( int i = 0; i<100; i++){
 			result+= A.secret_number();
 		}
