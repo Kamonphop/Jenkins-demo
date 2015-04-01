@@ -9,6 +9,7 @@
 	</target>
 	<path id="junit.class.path">
 		<pathelement location="lib/junit.jar" />
+		<pathelement location="lib/hamcrest-core.jar" />
 		<pathelement path="${build2}"/>
 	</path>
 	<target name="buildtest">
